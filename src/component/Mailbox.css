@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+button {
+  padding: 1rem;
+}
+
+.action-bar {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  grid-template-columns: auto 1fr;
+}
+
+.mailbox-app {
+  font-family: "Roboto", sans-serif;
+  --mailbox-font-family: "Roboto", sans-serif;
+  --mailbox-grey-warm-color: "teal";
+
+  --nylas-email-font-family: "Roboto", sans-serif;
+  --nylas-email-attachment-border-style: red;
+  --nylas-email-attachment-button-color: blue;
+  --nylas-email-attachment-button-bg: yellow;
+  --nylas-email-attachment-button-hover-bg: green;
+}
